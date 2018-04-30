@@ -1,0 +1,19 @@
+
+
+{% block content %}
+  <h2> API</h2>
+ <table>
+   <tbody>
+     <td>{{data.carrier}}</td>
+     <td>{{data.country_code}}</td>
+     <td>{{data.country_name}}</td>
+     <td>{{data.country_prefix}}</td>
+     <td>{{data.international_format}}</td>
+     <td>{{data.line_type}}</td>
+     <td>{{data.local_format}}</td>
+     <td>{{data.location}}</td>
+   </tbody>
+ </table>
+
+ {{ip}}
+{% endblock %}
